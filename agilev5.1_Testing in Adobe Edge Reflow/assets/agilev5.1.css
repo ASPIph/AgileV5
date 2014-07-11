@@ -1,0 +1,823 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#Solution {
+    float: left;
+    font-size: 7.8125em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: normal;
+    color: rgb(164, 0, 0);
+    font-style: normal;
+    letter-spacing: -0.06em;
+    text-decoration: none;
+    font-family: open-sans;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    margin-top: 67px;
+    margin-left: 2.55127%;
+    clear: none;
+}
+
+#Solution_Background {
+    float: left;
+    height: 898px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    margin-top: 902px;
+    margin-left: -100%;
+    clear: none;
+}
+
+#Log_In {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(255, 113, 113);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 1755.5625px;
+    z-index: 21;
+    clear: none;
+    right: 2.991536%;
+    margin-left: 0%;
+}
+
+#CONTACT_US {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(152, 152, 152);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 949.015625px;
+    z-index: 19;
+    clear: none;
+    right: 40.103353%;
+    margin-left: 0%;
+}
+
+#ABOUT_US {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(152, 152, 152);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 735.65625px;
+    z-index: 18;
+    clear: none;
+    right: 52.726237%;
+    margin-left: 0%;
+}
+
+#Home {
+    float: left;
+    height: 792px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    margin-top: 112px;
+    margin-left: 0%;
+    clear: none;
+    display: block;
+}
+
+#CLIENTS {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(152, 152, 152);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 568.828125px;
+    z-index: 17;
+    clear: none;
+    right: 63.758952%;
+    margin-left: 0%;
+}
+
+#Client_Background_copy {
+    float: left;
+    height: 900px;
+    width: 100%;
+    background-color: rgb(2, 49, 127);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#SOLUTIONS {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(152, 152, 152);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 351.53125px;
+    z-index: 16;
+    clear: none;
+    right: 72.368164%;
+    margin-left: 0%;
+}
+
+#HOME {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(152, 152, 152);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 199.609375px;
+    z-index: 15;
+    clear: none;
+    right: 83.666178%;
+}
+
+#Sign_Up {
+    float: left;
+    font-size: 2.625em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    color: rgb(255, 113, 113);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: open-sans;
+    position: fixed;
+    top: 26.0625px;
+    left: 1556.234375px;
+    z-index: 20;
+    clear: none;
+    right: 11.49821%;
+    margin-left: 0%;
+}
+
+#navbar {
+    float: left;
+    height: 114px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 13;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 5.257161%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 6px;
+    left: 39.78125px;
+    overflow: auto;
+    z-index: 0;
+}
+
+#image {
+    float: left;
+    width: 850px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 27.784017%;
+    margin-top: 119px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#image2 {
+    float: left;
+    width: 1310px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 15.865072%;
+    margin-top: 262px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 1920px) {
+    #Sign_Up {
+        top: 26.0625px;
+        left: 1570.296875px;
+        right: 10.371908%;
+        height: auto;
+    }
+
+    #Log_In {
+        top: 26.0625px;
+        left: 1764.296875px;
+        right: 2.256673%;
+        height: auto;
+    }
+
+    #image {
+        margin-top: 200px;
+        margin-left: 25.598145%;
+        clear: none;
+        width: 940px;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 114px;
+    }
+
+    #Home {
+        height: 900px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 100%;
+    }
+
+    #Solution_Background {
+        height: 900px;
+        margin-top: 2px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        display: block;
+    }
+
+    #Client_Background_copy {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 900px;
+        display: block;
+    }
+
+    #SOLUTIONS {
+        top: 26.0625px;
+        left: 346.53125px;
+        right: 72.628581%;
+        display: block;
+    }
+
+    #CONTACT_US {
+        top: 26.0625px;
+        left: 940.015625px;
+        right: 40.572103%;
+    }
+
+    #HOME {
+        display: block;
+    }
+
+    #CLIENTS {
+        display: block;
+    }
+
+    #ABOUT_US {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    #Home {
+        height: 697px;
+        margin-top: 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 60px;
+    }
+
+    #Solution_Background {
+        margin-top: 1px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 697px;
+    }
+
+    #Client_Background_copy {
+        width: 100%;
+        height: 697px;
+        margin-top: 1px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #image2 {
+        margin-top: 187px;
+        margin-left: 12.767661%;
+        clear: none;
+        width: 1020px;
+    }
+
+    #image {
+        margin-top: 149px;
+        margin-left: 24.302251%;
+        clear: none;
+        width: 700px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 3.487601%;
+        top: 7px;
+        left: 15.78125px;
+        display: block;
+    }
+
+    #HOME {
+        font-size: 25px;
+        top: 12.0625px;
+        left: 101.421875px;
+        right: 87.370745%;
+        height: auto;
+    }
+
+    #SOLUTIONS {
+        font-size: 25px;
+        height: auto;
+        right: 77.531342%;
+        top: 12.0625px;
+        left: 199.484375px;
+    }
+
+    #CLIENTS {
+        font-size: 25px;
+        height: auto;
+        top: 12.0625px;
+        left: 332.921875px;
+        right: 70.052846%;
+    }
+
+    #ABOUT_US {
+        font-size: 25px;
+        height: auto;
+        top: 12.0625px;
+        left: 435.0625px;
+        right: 59.903459%;
+    }
+
+    #CONTACT_US {
+        font-size: 25px;
+        height: auto;
+        top: 12.0625px;
+        left: 573.71875px;
+        right: 48.420342%;
+        display: block;
+    }
+
+    #Sign_Up {
+        font-size: 25px;
+        height: auto;
+        right: 9.157668%;
+        top: 12.0625px;
+        left: 1136.5px;
+        display: block;
+    }
+
+    #Log_In {
+        font-size: 25px;
+        height: auto;
+        right: 1.907943%;
+        top: 12.0625px;
+        left: 1255.578125px;
+        display: block;
+    }
+
+    #Solution {
+        font-size: 80px;
+        margin-top: 29px;
+        margin-left: 1.88049%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #image1 {
+        top: 13.0625px;
+        left: 20.390625px;
+        height: auto;
+        width: auto;
+        max-width: 4.18457%;
+    }
+
+    #HOME {
+        top: 18.0625px;
+        left: 113.34375px;
+        right: 85.722656%;
+        font-size: 30px;
+        height: auto;
+    }
+
+    #SOLUTIONS {
+        top: 18.0625px;
+        left: 216.578125px;
+        right: 73.172607%;
+        font-size: 30px;
+        height: auto;
+    }
+
+    #CLIENTS {
+        top: 18.0625px;
+        left: 379.15625px;
+        right: 63.363037%;
+        font-size: 30px;
+        height: auto;
+    }
+
+    #ABOUT_US {
+        top: 17.0625px;
+        left: 503.703125px;
+        right: 50.732422%;
+        height: auto;
+        font-size: 30px;
+    }
+
+    #CONTACT_US {
+        top: 16.0625px;
+        left: 667.84375px;
+        right: 36.356201%;
+        height: auto;
+        font-size: 30px;
+    }
+
+    #Solution_Background {
+        width: 100%;
+        height: 1280px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #navbar {
+        height: 75.375px;
+        width: 100%;
+    }
+
+    #Client_Background_copy {
+        width: 100%;
+        height: 1280px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #Home {
+        width: 100%;
+        height: 1280px;
+        margin-top: 67.0625px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #Sign_Up {
+        height: auto;
+        top: 16.0625px;
+        left: 1006.625px;
+        right: 12.794189%;
+        font-size: 30px;
+    }
+
+    #Log_In {
+        font-size: 30px;
+        top: 16.0625px;
+        left: 1147.75px;
+        right: 4.042969%;
+        height: auto;
+    }
+
+    #image {
+        margin-top: 330px;
+        margin-left: 16.877441%;
+        clear: none;
+        width: 850px;
+    }
+
+    #Solution {
+        margin-top: 23px;
+        margin-left: 1.593018%;
+        clear: none;
+        font-size: 100px;
+    }
+
+    #image2 {
+        margin-top: 461px;
+        margin-left: 6.624756%;
+        clear: none;
+        width: 1150px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #image {
+        margin-top: 335px;
+        margin-left: 11.867028%;
+        clear: none;
+        width: 750px;
+    }
+
+    #Sign_Up {
+        height: auto;
+        top: 22.0625px;
+        left: 763.0625px;
+        right: 13.34662%;
+        font-size: 25px;
+    }
+
+    #image2 {
+        margin-top: 486px;
+        margin-left: -0.91677296%;
+        clear: none;
+        width: 1000px;
+        max-width: none;
+    }
+
+    #image1 {
+        top: 13.0625px;
+        left: 10.703125px;
+    }
+
+    #HOME {
+        top: 22.0625px;
+        left: 86.65625px;
+        right: 88.445472%;
+        font-size: 25px;
+    }
+
+    #SOLUTIONS {
+        top: 22.0625px;
+        left: 182.359375px;
+        right: 76.662946%;
+        font-size: 25px;
+    }
+
+    #CLIENTS {
+        top: 22.0625px;
+        left: 303.828125px;
+        right: 66.94037%;
+        font-size: 25px;
+    }
+
+    #ABOUT_US {
+        height: auto;
+        top: 22.0625px;
+        left: 397.828125px;
+        right: 48.80102%;
+        font-size: 25px;
+    }
+
+    #CONTACT_US {
+        height: auto;
+        top: 22.0625px;
+        left: 527.703125px;
+        right: 33.352997%;
+        font-size: 25px;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 75.375px;
+    }
+
+    #Solution_Background {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 1280px;
+    }
+
+    #Client_Background_copy {
+        width: 100%;
+        height: 1280px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #Home {
+        margin-top: 67.0625px;
+        margin-right: 0%;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #Log_In {
+        height: auto;
+        right: 3.029337%;
+        font-size: 25px;
+        top: 22.0625px;
+        left: 872.0625px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #image {
+        margin-top: 335px;
+        margin-left: 5.382813%;
+        clear: none;
+        width: 715px;
+    }
+
+    #Solution_Background {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 1280px;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 67.0625px;
+    }
+
+    #Client_Background_copy {
+        width: 100%;
+        height: 1280px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #Home {
+        margin-top: 67.0625px;
+        margin-right: 0%;
+        margin-left: 0%;
+        clear: none;
+        width: 100%;
+        height: 1280px;
+    }
+
+    #image2 {
+        width: 800px;
+        margin-top: 513px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #Solution {
+        margin-top: 23px;
+        font-size: 80px;
+    }
+
+    #image1 {
+        height: auto;
+        width: auto;
+        max-width: 5.535156%;
+        top: 13.0625px;
+        left: 12.734375px;
+    }
+
+    #HOME {
+        top: 20.03125px;
+        left: 70.65625px;
+        right: 84.445313%;
+        font-size: 20px;
+        height: auto;
+    }
+
+    #SOLUTIONS {
+        font-size: 20px;
+        top: 20.03125px;
+        left: 143.59375px;
+        right: 71.025391%;
+        height: auto;
+    }
+
+    #CLIENTS {
+        font-size: 20px;
+        top: 20.03125px;
+        left: 253.1875px;
+        right: 60.808594%;
+        height: auto;
+    }
+
+    #ABOUT_US {
+        font-size: 20px;
+        height: auto;
+        right: 47.730469%;
+        top: 20.03125px;
+        left: 334.1875px;
+    }
+
+    #CONTACT_US {
+        font-size: 20px;
+        height: auto;
+        right: 32.351563%;
+        top: 20.03125px;
+        left: 436.703125px;
+    }
+
+    #Sign_Up {
+        font-size: 20px;
+        top: 19.03125px;
+        left: 631.78125px;
+        right: 12.615234%;
+        height: auto;
+    }
+
+    #Log_In {
+        height: auto;
+        top: 19.03125px;
+        left: 718.984375px;
+        right: 3.726562%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #image {
+        margin-top: 73px;
+        margin-left: 5.605062%;
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #image {
+        width: 250px;
+        max-width: none;
+        margin-top: 169px;
+        margin-left: 11.469727%;
+        clear: none;
+    }
+}
+

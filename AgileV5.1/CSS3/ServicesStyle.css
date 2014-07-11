@@ -1,0 +1,299 @@
+﻿body {
+background-color: transparent;}
+
+p {
+color: white;
+margin-top:40px;
+margin-left:70px;}
+
+.text-title p{
+font-family: 'Open Sans';
+font-size: 64px;
+text-align:left;
+margin-left:5px;
+margin-top:15px;
+color: #a21e22;
+}
+
+.upper-banner {
+    height: 225px;
+margin-top: 50px;
+margin-left: 40px;
+}
+
+.lower-banner {
+background: #a21e22;
+height: 450px;
+}
+
+.btn-link {
+text-transform:none;
+font-size:27px;
+padding-left:0px;
+padding-right:0px;
+color:#48A770;}
+
+.btn-activated {
+width:100px;}
+
+.btn-default {
+width:100px;}
+
+.form-horizontal {
+padding-left: 20px;
+padding-right: 20px;}
+
+.modal-dialog{
+width:800px;}
+
+@media (max-width: 1920px) {
+    .text-title p{
+    font-size: 70px;
+    }
+
+    .lower-banner {
+    height: 695px;}
+
+    p {
+    font-size:27px;}
+}
+
+@media (max-width: 1366px){
+    .text-title p{
+    margin-top:25px;
+    font-size: 55px;}
+
+    .lower-banner {
+    height: 550px;}
+
+    p {
+    font-size:20px;}
+
+    .btn-link {
+    font-size: 20px;}
+}
+
+@media (max-width: 1280px) {
+    .text-title p {
+        margin-top: 20px;
+        font-size: 60px;}
+
+    .lower-banner {
+        height: 470px;}
+
+    p {
+        font-size: 18px;}
+
+    .btn-link {
+        font-size: 18px;}
+}
+
+@media (max-width: 1024px){
+    .lower-banner {
+    height: 500px;}}
+
+@media (max-width: 980px)
+{
+    .upper-banner {
+    margin-left: 0;}
+
+    .upper-banner img {
+    width:25%;
+    height: auto;
+    margin-left:350px;
+    }
+
+    .text-title p{
+    font-size: 50px;
+    text-align:center;
+    margin-top:0px;
+    color: #a21e22;}
+
+    .lower-banner {
+    margin-top:100px;
+    padding-top:100px;
+    height: 905px;}
+
+    p {
+    margin-top:50px; 
+    margin-left:20px;
+    font-size:25px;}
+
+    .btn-link {
+    font-size: 25px;}
+
+    .textalign{
+    text-align:center;}
+}
+
+@media (max-width: 800px)
+{
+    .upper-banner img {
+    width:25%;
+    height: auto;
+    margin-left:290px;
+    }
+
+    .lower-banner {
+    margin-top:100px;
+    padding-top:30px;
+    height: 970px;}
+
+    .text-title p{
+    margin-top:30px;
+    font-size:45px;}
+    
+    .textalign{
+    text-align:center;}
+
+    .modal-dialog{
+    width:600px;}
+}
+
+@media (max-width: 768px) {
+
+    .upper-banner {
+    margin-left: 0;}
+
+    .upper-banner img {
+    width:28%;
+    height: auto;
+    margin-left:265px;
+    }
+
+    .text-title p{
+    font-size: 45px;
+    text-align:center;
+    margin-top:30px;
+    color: #a21e22;}
+
+    .lower-banner {
+    height: 970px;}
+
+    p { 
+    margin-left:20px;}
+
+    .textalign{
+    text-align:center;}
+}
+
+@media (max-width: 640px){
+    .upper-banner img {
+    margin-left:220px;}
+    
+    .lower-banner {
+    height: 860px;}
+    
+    .text-title p{
+    font-size: 35px;}
+        
+    p {
+    font-size:20px;}
+
+    .btn-link {
+    font-size: 20px;}
+}
+
+@media (max-width: 480px) {
+    .upper-banner img {
+    margin-left:160px;}
+
+    .lower-banner {
+    height: 1000px;}
+
+    .text-title p{
+    font-size: 30px;}
+}
+
+@media (max-width: 360px) {
+
+    .upper-banner {
+    margin-left: 0;
+    height:640px;
+    }
+
+    .upper-banner img {
+    width:60%;
+    height: auto;
+    margin-left:70px;
+    margin-top:140px;
+    }
+
+    .text-title p{
+    font-size: 45px;
+    text-align:center;
+    margin-top:30px;
+    color: #a21e22;}
+
+    .lower-banner {
+    height: 1300px;}
+
+    p {
+    font-size:20px; 
+    margin-left:15px;}
+
+    .textalign{
+    text-align:center;}
+
+    .modal-dialog{
+    width:340px;}
+
+    h6 {
+    font-size:21px;}
+
+    .btn-link {
+    font-size: 20px;}
+}
+
+@media (max-width: 320px) {
+
+    .upper-banner {
+    height:320px;}
+
+    .upper-banner img {
+    width:60%;
+    height: auto;
+    margin-top:120px;
+    margin-left:55px;}
+
+    .lower-banner {
+    height: 910px;}
+
+    .text-title p{
+    font-size: 30px;
+    margin-top:0px;
+    margin-left: -4px;
+    color: #a21e22;}
+
+    p {
+    font-size:15px; 
+    margin-left:15px;}
+
+    .modal-dialog{
+    width:300px;}
+
+    .modal-body {
+    height:315px;}
+
+    .modal-footer {
+    height:55px;}
+
+    h6 {
+    font-size:14px;}
+
+    .btn-activated {
+    width:80px;
+    height:40px;
+    font-size:12px;
+    margin-top:-30px;
+    }
+
+    .btn-default {
+    width:80px;
+    height:40px;
+    font-size:12px;
+    margin-top:-30px;}
+
+    .btn-link {
+    font-size: 15px;}
+}

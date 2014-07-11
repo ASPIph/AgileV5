@@ -1,0 +1,933 @@
+﻿body 
+{background-color: white;
+ color: #808080;
+}
+
+.Home {
+width:100%;
+background-color: #2b2b2b;}
+
+/*size and spacing of brand image located at left side of navbar*/
+img
+{
+margin-top:3px;
+max-width: 90%;
+}
+
+.agilelogo {
+width: 50px;
+height: 50px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 20px;}
+
+/*navbar attributes*/
+.navbar
+{
+border-radius: 0;
+width: 100%;
+padding: 0 20px;
+}
+
+/*title per page and paragraph*/
+.jumbotron{border-radius: 0 !important; padding: 0 !important; color: white;}
+
+.jumbotron-midnight
+{
+ color: #a40000;
+ margin: 0;}
+
+/*text alignment of title per page and paragraph*/
+.text-centered
+{text-align: center;}
+
+.no-margin
+{margin: 0;}
+
+/*animation on footer*/
+.crossfade {
+  position:relative;
+  height:40px;
+  width:50px;
+  margin:0 auto;
+}
+.crossfade img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 400ms ease-in-out;
+  -moz-transition: opacity 400ms ease-in-out;
+  -o-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
+}
+.crossfade img.top:hover {
+  opacity:0;}
+
+.sd p{
+    color: #e67e22;}
+
+    .marginbox {
+    margin-top: 10px;
+    margin-left: 40px;}
+
+    .marginbox p {
+    font-size: 20px;}
+
+   .marginbox2 {
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left:10px;}
+
+    .marginbox2 p {
+    font-size: 20px;}
+
+@media (max-width: 1920px) {
+    .scroll-panel {
+        height: 990px;
+        padding-top: 60px;
+    }
+
+    .scroll-panel2 {
+        height: 990px;
+        padding-top: 60px;
+    }
+
+    .scroll-panel3 {
+        height: 990px;
+        background: #2b2b2b;
+    }
+
+    .scroll-panel4 {
+        height: 990px;
+        padding-top: 60px;
+    }
+
+    .aph {
+    margin-top:280px;}
+
+    .footer-margin {
+    margin-top:8px;}
+
+    .footer-margin > .col-sm-1 {
+    margin-top: -4px;}
+
+    .pdfviewer {
+    width: 1300px;
+    height: 630px;
+    }
+}
+@media (max-width: 1366px){
+/*size of each page*/
+.scroll-panel 
+{
+    height: 697px;
+    padding-top: 60px;
+}
+
+.scroll-panel2 
+{
+    height: 697px;
+    padding-top: 60px;
+}
+
+.scroll-panel3 
+{
+height: 697px;
+background:#2b2b2b;
+}
+
+.scroll-panel4 
+{
+    height: 697px;
+    padding-top: 60px;
+}
+
+.Home {
+margin-top:10px;
+}
+
+.aph {
+margin-top:140px;}
+
+/*size, margins, paddings of each boxes*/
+
+    .marginbox p {
+    font-size: 15px;}
+
+     .marginbox2 p {
+    font-size: 15px;}
+
+.footer-margin > .col-sm-1 {
+margin-top: -6px;}
+.footer-margin > .col-md-2 {
+width: 300px;}
+.footer-margin > .col-md-1 {
+margin-left:600px;
+width: 150px;}
+
+.pdfviewer {
+width:900px;
+height:470px;
+}
+
+.address p {
+font-size: 17px;}
+
+.sd p{
+    color: #e67e22;
+    font-size: 18px;}
+}
+@media (max-width: 1280px) {
+
+/*size of each page*/
+.scroll-panel 
+{
+    height: 600px;
+    padding-top: 60px;
+}
+
+.scroll-panel2 
+{
+    height: 600px;
+    padding-top: 60px;
+}
+
+.scroll-panel3 
+{
+height: 600px;
+background:#2b2b2b;
+}
+
+.scroll-panel4 
+{
+    height: 600px;
+    padding-top: 60px;
+}
+
+.Home {
+margin-top:10px;
+}
+
+.aph {
+margin-top:100px;}
+
+/*size, margins, paddings of each boxes*/
+
+    .marginbox p {
+    font-size: 15px;}
+
+ .marginbox2 {
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left:10px;
+}
+     .marginbox2 p {
+    font-size: 15px;}
+
+.pdfviewer {
+width:840px;
+height:350px;
+}
+
+.address p {
+font-size: 17px;}
+
+.sd p{
+    color: #e67e22;
+    font-size: 18px;
+}}
+@media (max-width: 980px) {
+
+/*size of each page*/
+.scroll-panel 
+{
+    height: 1280px;
+    padding-top: 60px;
+}
+
+.scroll-panel2 
+{
+    height: 1280px;
+    padding-top: 60px;
+}
+
+.scroll-panel3 
+{
+height: 1280px;
+background:#2b2b2b;
+}
+
+.scroll-panel4 
+{
+    height: 1340px;
+    padding-top: 60px;
+}
+
+.Home {
+margin-top:10px;
+padding-top:300px;
+}
+
+.aph {
+margin-top:440px;}
+
+/*size, margins, paddings of each boxes*/
+
+.marginbox {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+    .marginbox p {
+    font-size: 20px;}
+
+ .marginbox2 {
+    margin-top: 100px;
+    margin-right:15px;
+    margin-left:15px;
+}
+     .marginbox2 p {
+    font-size: 18px;
+     }
+
+/*footer margin*/
+.footer-margin {
+margin-top: 3px;
+margin-left: 10px;
+display: inline-block;}
+
+.footer-margin p {
+font-size: 20px;}
+
+.footer-margin > .col-sm-1 {
+width: 57px;
+height: 50px;
+padding-top: 15px;}
+
+.footer-margin > .col-md-2 {
+width: 400px;}
+.footer-margin > .col-md-1 {
+margin-left:140px;
+width: 160px;}
+
+.form-group {
+ margin-top: -5px;}
+
+.form-horizontal {
+margin-left: -40px;
+width: 100%;}
+
+.btn-success {
+ width: 103%;
+ margin-left:-54px;
+ font-size:20px;
+}
+
+.pdfviewer {
+width:840px;
+height:1000px;
+}
+
+.address p {
+margin-top:5px;
+font-size: 27px;}
+
+h4 {
+margin-top:70px;
+font-size: 29px;}
+
+.sd p{
+    color: #e67e22;
+    margin-top:70px;
+    font-size: 30px;}
+}
+@media (max-width: 800px) {
+.agilelogo {
+margin-left:20px;}
+
+.navbar {
+padding: 0px 0px;}
+
+.sd p{
+color: #e67e22;
+margin-top:70px;
+font-size: 24px;}
+
+/*footer margin*/
+.footer-margin {
+margin-top: 3px;
+margin-left: 10px;}
+
+.footer-margin p {
+font-size: 20px;}
+
+.footer-margin > .col-sm-1 {
+width: 48px;
+height: 40px;
+padding-top:10px;}
+
+.footer-margin > .col-md-2 {
+width: 400px;}
+.footer-margin > .col-md-1 {
+margin-left:5px;
+width: 160px;}
+
+.pdfviewer {
+width:675px;
+height:900px;}
+}
+@media (max-width: 768px) {
+    .agilelogo {
+        margin-left: 20px;
+    }
+
+    .scroll-panel4 {
+        height: 1024px;
+    }
+
+    .scroll-panel3 {
+        height: 1024px;
+    }
+
+    .scroll-panel2 {
+        height: 1024px;
+    }
+
+    .scroll-panel {
+        height: 1024px;
+    }
+
+    .Home {
+        padding-top: 250px;
+    }
+
+    .jumbotron h1 {
+        text-align: center;
+        font-size: 31px;
+    }
+
+    .jumbotron p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .marginbox {
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+
+    .marginbox p {
+        margin-left: 5px;}
+
+    .marginbox h6 {
+        text-align: center;
+        font-size: 18px;}
+
+    .btn-danger {
+        margin-left: 325px;
+        height: 45px;
+    }
+
+    .btn-inverse {
+        margin-left: 305px;
+    }
+
+    .btn-success {
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    .form-horizontal {
+        margin-left: 15px;
+        width: 96%;
+    }
+
+    /*footer margin*/
+    .footer-margin {
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+
+        .footer-margin p {
+            font-size: 20px;
+        }
+
+        .footer-margin > .col-sm-1 {
+            padding-top:10px;
+        }
+
+        .footer-margin > .col-md-2 {
+            width: 340px;
+        }
+
+        .footer-margin > .col-md-1 {
+            margin-left: 0px;
+            width: 160px;
+        }
+
+    .modal-dialog {
+        margin-left: 38px;
+        width: 90%;
+    }
+
+    .pdfviewer {
+        width: 645px;
+        height: 750px;
+    }
+
+    .sd p {
+        font-size: 22px;
+    }
+
+    h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .address p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aph {
+        margin-top: 320px;
+    }
+}
+@media (max-width: 640px) {
+    .agilelogo {
+        margin-left: 20px;
+    }
+
+    .scroll-panel4 {
+        height: 850px;
+    }
+
+    .scroll-panel3 {
+        height: 360px;
+    }
+
+    .scroll-panel2 {
+        height: 1000px;
+    }
+
+    .scroll-panel {
+        height: 360px;
+    }
+
+    .Home {
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .aph {
+        margin-top: 30px;
+        margin-left: -7px;
+    }
+
+    .btn-success {
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 95%;
+    }
+
+    .form-group {
+        margin-top: -12px;
+    }
+
+    .form-horizontal {
+        margin-left: 25px;
+        width: 90%;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .address p {
+        font-size: 16px;
+    }
+
+    .footer-margin > .col-sm-1 {
+        width: 50px;
+        margin-bottom: 15px;
+        display: inline-block;}
+
+    .footer-margin > .col-sm-1 img {
+        margin-left:370px;
+        display:inherit;} 
+}
+@media (max-width: 480px) {
+    .scroll-panel4 {
+        height: 500px;
+    }
+
+    .scroll-panel3 {
+        height: 320px;
+    }
+
+    .scroll-panel2 {
+        height: 750px;
+    }
+
+    .scroll-panel {
+        height: 320px;
+    }
+
+    .Home {
+        width:100%;
+        padding-top: 40px;
+        margin-right: -500px;
+    }
+
+    .jumbotron h1 {
+        font-size: 25px;
+    }
+
+    .jumbotron-midnight h1 {
+        font-size: 25px;
+    }
+
+    .jumbotron p {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    .marginbox {
+        margin-top: -20px;
+    }
+
+    .marginbox1 {
+        margin-top: -20px;
+    }
+
+    .marginbox p {
+        margin-left: 5px;
+    }
+
+    .marginbox h6 {
+        margin-top: 18px;
+        font-size: 11px;
+    }
+
+    .marginbox2 {
+        margin-top: -25px;
+        margin-right: 10px;
+    }
+
+    .marginbox2 p {
+        margin-top: 25px;
+        font-size: 12px; }
+
+    .col-md-6 {
+        margin-top: -2px;}
+
+    .col-md-5 {
+        margin-top: -10px;}
+
+    .btn-danger {
+        margin-left: 10px;
+        height: 40px;}
+
+    .btn-inverse {
+        margin-left: 95px;
+        margin-top: -40px;
+        height: 30px;
+        font-size: 12px;}
+
+    .btn-success {
+        margin-left: 0px;
+        margin-top: -30px;
+        font-size:15px;
+        width: 97%;}
+
+    .form-group {
+        margin-top: -12px;}
+
+    .form-horizontal {
+        margin-left: 15px;
+        width: 90%;}
+
+    .pdf label {
+        margin-top: -50px;
+        font-size: 12px;}
+
+    .btn-lg {
+        margin-top: -10px;
+        height: 35px;
+        font-size: 11px;}
+
+    .modal-dialog {
+        width: 90%;
+        margin-left:22px;
+    }
+
+    .pdfviewer {
+        width: 390px;
+        height: 180px;}
+
+    h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 13px;}
+
+    .address p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .sd p {
+        font-size: 14px;}
+
+    .aph {
+        margin-top: 30px;
+        margin-left: -7px;}
+
+        .footer-margin > .col-sm-1 {
+        width: 50px;
+        margin-bottom: 15px;
+        display: inline-block;}
+
+    .footer-margin > .col-sm-1 img {
+        margin-left:50px;
+        display:inherit;} 
+
+
+
+
+
+    }
+@media (max-width: 360px) {
+    .agilelogo {
+    margin-left:20px;}
+    
+    .scroll-panel4 {
+        height: 1070px;}
+
+    .scroll-panel3 {
+        height: 640px;}
+
+    .scroll-panel2 {
+        height: 1250px;}
+
+    .scroll-panel {
+        height: 640px;}
+
+    .Home {
+    width:100%;
+    padding-top:220px;
+    }
+
+    .aph {
+    margin-top:200px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:-5px;}
+
+    .jumbotron h1 {
+        text-align: center;
+        margin-top:30px;
+        font-size: 31px;}
+
+    .jumbotron p {
+        text-align: center;
+        font-size: 15px;}
+
+    .pdfviewer {
+        width: 280px;
+        height: 370px;}
+
+    .marginbox {
+        margin-left: 5px;
+        margin-top: 40px;}
+
+    .marginbox p {
+        margin-left: 5px;}
+
+    .marginbox h6 {
+        text-align: center;
+        font-size: 18px;}
+
+    .marginbox2 {
+        text-align: center;
+        margin-right: 15px;
+        margin-top: 35px;}
+
+    .btn-danger {
+        margin-left: 325px;
+        height: 45px;}
+
+    .btn-inverse {
+        margin-left: 305px;}
+
+    .btn-success {
+        margin-left:-4px;
+        width: 100%;}
+    
+    .modal-dialog {
+        margin-left:15px;
+        width: 90%;}
+
+    .sd p{
+    font-size: 18px;}
+
+    .address {
+    margin-top:150px;}
+
+    h4 { 
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+        }
+    .address p {
+    font-size: 15px;
+    text-align: center;}
+
+    .form-horizontal {
+    margin-left:12px;}
+
+    .footer-margin > .col-sm-1 {
+    width: 50px;
+    margin-bottom: 15px;
+    display: inline-block;}
+
+    .footer-margin > .col-sm-1 img {
+        margin-left:10px;
+        margin-top:-10px;
+        display:inherit;} 
+}
+@media (max-width: 320px) {
+    .scroll-panel4 {
+        height: 600px;}
+
+    .scroll-panel3 {
+        height: 480px;}
+
+    .scroll-panel2 {
+        height: 900px;}
+
+    .scroll-panel {
+        height: 480px;}
+
+    .Home {
+        width:100%;
+        padding-top: 130px;}
+
+    .jumbotron h1 {
+        font-size: 25px;}
+
+    .jumbotron-midnight h1 {
+        font-size: 25px;}
+
+    .jumbotron p {
+        font-size: 10px;
+        margin-top: -10px;}
+
+    .marginbox {
+        margin-top: -20px;}
+
+    .marginbox1 {
+        margin-top: -20px;}
+
+    .marginbox p {
+        margin-left: 5px;}
+
+    .marginbox h6 {
+        margin-top: 18px;
+        font-size: 11px;}
+
+    .marginbox2 {
+        margin-top: -25px;
+        margin-right: 10px;}
+
+    .marginbox2 p {
+        margin-top: 25px;
+        font-size: 12px;}
+
+    .col-md-6 {
+        margin-top: -2px;}
+
+    .col-md-5 {
+        margin-top: -10px;}
+
+    .btn-danger {
+        margin-left: 10px;
+        height: 40px;}
+
+    .btn-inverse {
+        margin-left: 95px;
+        margin-top: -40px;
+        height: 30px;
+        font-size: 12px;}
+
+    .btn-success {
+        margin-left: 1px;
+        margin-top: -30px;
+        font-size:15px;
+        width: 95%;}
+
+    .form-group {
+        margin-top: -12px;}
+
+    .form-horizontal {
+        margin-left: -5px;
+        width: 100%;}
+
+    .footer-margin {
+        margin-top: -10px;
+        margin-left: 15px;
+        display: inline-block;}
+
+    .footer-margin p {
+        font-size: 17px;}
+
+    .footer-margin > .col-sm-1 {
+        width: 50px;
+        display: inline-block;}
+
+    .footer-margin > .col-sm-1 img {
+        margin-top: 1px;
+        margin-left: 20px;
+        height: 40px;}
+
+    .pdf label {
+        margin-top: -50px;
+        font-size: 12px;}
+
+    .btn-lg {
+        margin-top: -10px;
+        height: 35px;
+        font-size: 11px;}
+
+    .modal-dialog {
+        width: 90%;}
+
+    .pdfviewer {
+        width: 250px;
+        height: 280px;}
+
+    h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 13px;}
+
+    .address p {
+        font-size: 12px;
+        text-align: center;}
+
+    .sd p {
+        font-size: 14px;}
+
+    .aph {
+        margin-top: 140px;
+        margin-left: -7px;}
+
+    .form-horizontal {
+    width:85%;
+    margin-left:15px;
+    }
+}
+

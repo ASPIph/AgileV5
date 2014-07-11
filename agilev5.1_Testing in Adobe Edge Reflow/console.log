@@ -1,0 +1,52 @@
+Message: [Extension] starting to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: [Extension] failed to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: Reflow Startup: 1767 ms
+Source: archive://main-optimized.js
+Line: 271
+-----------------------
+Message: listening to node events
+Source: archive://main-optimized.js
+Line: 1770
+-----------------------
+Message: [Extension] starting to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: Reflow Startup: 1421 ms
+Source: archive://main-optimized.js
+Line: 271
+-----------------------
+Message: [Extension] failed to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: listening to node events
+Source: archive://main-optimized.js
+Line: 1770
+-----------------------
+Message: Uncaught TypeError: Object enabled has no method 'set'
+Source: archive://main-optimized.js
+Line: 1070
+-----------------------
+Message: [Extension] starting to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: [Extension] failed to load src//extensions/default/_templateforextensions/
+Source: archive://main-optimized.js
+Line: 2304
+-----------------------
+Message: Reflow Startup: 1426 ms
+Source: archive://main-optimized.js
+Line: 271
+-----------------------
+Message: listening to node events
+Source: archive://main-optimized.js
+Line: 1770
+-----------------------

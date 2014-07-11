@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3251F2E2-AFA5-44A6-9BEE-2BE8A08AEEC7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AgileV5._1</RootNamespace>
+    <AssemblyName>AgileV5.1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountSettings.html" />
+    <Content Include="images\sqepc.png" />
+    <Content Include="Security.html" />
+    <Content Include="images\ServicesIcon\Development_1.jpg" />
+    <Content Include="images\ServicesIcon\OperationsMngt_1.jpg" />
+    <Content Include="images\ServicesIcon\ProjectMngt_1.jpg" />
+    <Content Include="images\ServicesIcon\Security_1.jpg" />
+    <Content Include="images\ServicesIcon\security_red.png" />
+    <Content Include="images\ServicesIcon\security_white.png" />
+    <Content Include="images\ServicesIcon\Support_1.jpg" />
+    <Content Include="images\ServicesIcon\Training_1.jpg" />
+    <Content Include="OpMng.html" />
+    <Content Include="CSS3\animate.css" />
+    <Content Include="CSS3\bootstrap.css" />
+    <Content Include="CSS3\component_cb.css" />
+    <Content Include="CSS3\component_ch.css" />
+    <Content Include="CSS3\component_cl.css" />
+    <Content Include="CSS3\component_st.css" />
+    <Content Include="CSS3\demo.css" />
+    <Content Include="CSS3\flat-ui.css" />
+    <Content Include="CSS3\icons_st.css" />
+    <Content Include="CSS3\LogInStyleSheet.css" />
+    <Content Include="CSS3\ServicesStyle.css" />
+    <Content Include="CSS3\SignUpStyleSheet.css" />
+    <Content Include="CSS3\StyleSheet.css" />
+    <Content Include="Development.html" />
+    <Content Include="edge_includes\edge.4.0.0.min.js" />
+    <Content Include="edge_includes\jquery-2.0.3.min.js" />
+    <Content Include="Font\glyphicons-halflings-regular.svg" />
+    <Content Include="images\agile.png" />
+    <Content Include="images\agileicon.png" />
+    <Content Include="images\agile_original_icon.png" />
+    <Content Include="images\aphelionlogo1.png" />
+    <Content Include="images\homepage4.png" />
+    <Content Include="images\macbook_spectrum.png" />
+    <Content Include="images\qc.jpg" />
+    <Content Include="images\ServicesIcon\consulting_red.png" />
+    <Content Include="images\ServicesIcon\consulting_white.png" />
+    <Content Include="images\ServicesIcon\development icon_white.png" />
+    <Content Include="images\ServicesIcon\development_red.png" />
+    <Content Include="images\ServicesIcon\project management icon_white.png" />
+    <Content Include="images\ServicesIcon\projectmanagement_red.png" />
+    <Content Include="images\ServicesIcon\support_red.png" />
+    <Content Include="images\ServicesIcon\support_white.png" />
+    <Content Include="images\ServicesIcon\training icon_white.png" />
+    <Content Include="images\ServicesIcon\training_red.png" />
+    <Content Include="images\SocialMediaIcons\fb1.png" />
+    <Content Include="images\SocialMediaIcons\fb2.png" />
+    <Content Include="images\SocialMediaIcons\in1.png" />
+    <Content Include="images\SocialMediaIcons\in2.png" />
+    <Content Include="images\SocialMediaIcons\p1.png" />
+    <Content Include="images\SocialMediaIcons\p2.png" />
+    <Content Include="images\SocialMediaIcons\tw1.png" />
+    <Content Include="images\SocialMediaIcons\tw2.png" />
+    <Content Include="images\toronto.jpg" />
+    <Content Include="JS\bootstrap.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\bs-glyphicons-data-generator.js" />
+    <Content Include="JS\classie.js" />
+    <Content Include="JS\classie_st.js" />
+    <Content Include="JS\collapse.js" />
+    <Content Include="JS\component.js" />
+    <Content Include="JS\dropdown.js" />
+    <Content Include="JS\jquery-1.8.3.js" />
+    <Content Include="JS\jquery-2.1.1.js" />
+    <Content Include="JS\jquery-scrollto.js" />
+    <Content Include="JS\jquery.inview.js" />
+    <Content Include="JS\jquery.js" />
+    <Content Include="JS\jszip.min.js" />
+    <Content Include="JS\less-1.7.0.min.js" />
+    <Content Include="JS\less.min.js" />
+    <Content Include="JS\mlpushmenu.js" />
+    <Content Include="JS\modal.js" />
+    <Content Include="JS\modernizr.custom_cb.js" />
+    <Content Include="JS\modernizr.custom_ch.js" />
+    <Content Include="JS\modernizr.custom_cl.js" />
+    <Content Include="JS\modernizr.custom_st.js" />
+    <Content Include="JS\shrinkwrap.js" />
+    <Content Include="JS\sidebarEffects.js" />
+    <Content Include="JS\tab.js" />
+    <Content Include="JS\toucheffects.js" />
+    <Content Include="JS\transition.js" />
+    <Content Include="JS\uglify.min.js" />
+    <Content Include="LogIn.html" />
+    <Content Include="ProjectManagement.html" />
+    <Content Include="SignUp.html" />
+    <Content Include="Support.html" />
+    <Content Include="Training.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS3\bootstrap.css.map" />
+    <Content Include="Font\flat-ui-icons-regular.ttf" />
+    <Content Include="Font\glyphicons-halflings-regular.eot" />
+    <Content Include="Font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Font\glyphicons-halflings-regular.woff" />
+    <Content Include="pdf-files\Software-Architect.pdf" />
+    <Content Include="pdf-files\Senior-Software-Developer.pdf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49335</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48920/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

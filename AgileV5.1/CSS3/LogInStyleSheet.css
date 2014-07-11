@@ -1,0 +1,288 @@
+﻿@media (max-width: 1920px){
+.marginbox {
+margin-top:45px;
+margin-left:40px;
+}
+
+.home{
+margin-top: -120px;
+margin-left:450px;
+text-align: center;
+width:250px;
+}
+
+h1 {
+margin-top:40px;
+margin-left:50px;
+width:300px;
+}
+
+.full-width {
+width: 100%;}
+
+.form-horizontal {
+margin-top:250px;
+margin-left:500px;}
+}
+@media (max-width: 1366px){
+.marginbox {
+margin-top:45px;
+margin-left:40px;
+}
+
+.home{
+margin-top: -120px;
+margin-left:358px;
+text-align: center;
+width:250px;
+}
+
+h1 {
+margin-top:40px;
+margin-left:50px;
+width:300px;
+}
+
+.full-width {
+width: 100%;}
+
+.form-horizontal {
+margin-top:130px;
+margin-left:330px;}
+
+.form-group {
+width: 700px;}
+}
+@media (max-width: 1280px) {
+.marginbox {
+margin-top:10px;
+margin-left:40px;
+}
+
+.home{
+margin-top: -120px;
+margin-left:-60px;
+text-align: center;
+width:250px;
+}
+
+h1 {
+margin-top:40px;
+margin-left:50px;
+width:300px;
+}
+
+.full-width {
+width: 100%;}
+
+.form-group {
+width: 1000px;}
+
+.form-horizontal {
+margin-top:130px;
+margin-left:170px;}
+
+}
+@media (max-width: 1024px) {
+.home{
+margin-top: -120px;
+margin-left:520px;
+text-align: center;
+width:250px;}
+
+.form-horizontal {
+margin-top:170px;
+margin-left:68px;}
+
+.form-group {
+width:900px;}
+}
+@media (max-width: 980px) {
+.marginbox {
+margin-top:10px;
+margin-left:40px;
+}
+
+.home{
+margin-top: -120px;
+margin-left:500px;
+text-align: center;
+width:250px;
+}
+
+h1 {
+margin-top:40px;
+margin-left:50px;
+width:300px;
+}
+
+.full-width {
+width: 100%;}
+
+.form-group {
+width: 870px;}
+
+.form-horizontal {
+margin-top:430px;
+margin-left:70px;}
+}
+@media (max-width: 800px) {
+.marginbox {
+margin-top:10px;
+margin-left:40px;
+}
+
+.home{
+margin-top: -120px;
+margin-left:455px;
+text-align: center;
+width:250px;
+}
+
+h1 {
+margin-top:40px;
+margin-left:50px;
+width:300px;
+}
+
+.full-width {
+width: 100%;}
+
+.form-group {
+width: 820px;}
+
+.form-horizontal {
+margin-top:425px;
+margin-left:0px;}
+}
+@media (max-width: 768px) {
+    .marginbox {
+        margin-top: 45px;
+        margin-left: 40px;}
+
+    .home {
+        margin-top: -140px;
+        margin-left: 430px;
+        text-align: center;
+        width: 250px;}
+
+    .full-width {
+        width: 100%;}
+
+    .form-group {
+        width: 118%;}
+
+    .form-horizontal {
+    margin-top:260px;}
+}
+@media (max-width: 640px) {
+    .marginbox {
+        margin-top: 0px;
+        margin-left: 40px;}
+
+    .home {
+        margin-top: -100px;
+        margin-left: 300px;
+        text-align: center;
+        width: 160px;}
+
+    .full-width {
+        width: 100%;}
+
+    .form-group {
+        width: 90%;}
+
+    .form-horizontal {
+    margin-top:20px;
+    margin-left:50px;
+    }
+
+    h1 {
+    font-size:40px;
+    margin-top:25px;
+    margin-left:50px;}
+}
+@media (max-width: 480px) {
+    .marginbox {
+        margin-top: 0px;
+        margin-left: 40px;}
+
+    .home {
+        margin-top: -100px;
+        margin-left: 230px;
+        text-align: center;
+        width: 160px;}
+
+    .full-width {
+        width: 100%;}
+
+    .form-group {
+        width: 95%;}
+
+    .form-horizontal {
+    margin-top:20px;
+    margin-left:-2px;
+    }
+
+    h1 {
+    font-size:40px;
+    margin-top:25px;
+    margin-left:50px;}
+}
+@media (max-width: 360px) {
+    .marginbox {
+        margin-top: -30px;
+        margin-left: -15px;
+    }
+
+    .home {
+        margin-top: -115px;
+        margin-left: 220px;
+        padding-bottom:35px;
+        font-size:17px;
+        text-align: center;
+        height:35px;
+        width: 110px;
+    }
+
+    .form-group {
+    margin-top:10px;
+    width:114%;}
+
+    .form-horizontal {
+    margin-top:170px;}
+
+    h1 {
+    font-size:35px;
+    margin-top:15px;
+    margin-left:5px;}
+
+}
+@media (max-width: 320px) {
+    .marginbox {
+        margin-top: -30px;
+        margin-left: -15px;
+    }
+
+    .home {
+        margin-top: -115px;
+        margin-left: 170px;
+        padding-bottom:35px;
+        font-size:17px;
+        text-align: center;
+        height:35px;
+        width: 110px;
+    }
+
+    .form-group {
+    width:116%;}
+
+    .form-horizontal {
+    margin-top:90px;}
+
+    h1 {
+    font-size:35px;
+    margin-top:15px;
+    margin-left:5px;}
+
+}

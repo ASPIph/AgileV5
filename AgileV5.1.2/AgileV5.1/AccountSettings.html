@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Agile Solution Partners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/ico" href="Images/agileicon.png" />
+
+    <!-- Bootstrap -->
+    <link href="CSS3/bootstrap.css" rel="stylesheet" />
+
+    <!-- Flat UI -->
+    <link href="CSS3/flat-ui.css" rel="stylesheet" />
+
+    <!-- Creative Link -->
+    <link href="CSS3/component_cl.css" rel="stylesheet" />
+
+    <!-- Style -->
+    <link href="CSS3/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#agilenavbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="agilelogo">
+                        <img src="Images/agile_original_icon.png" />
+                    </div>
+
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse cl-effect-21" id="agilenavbar">
+
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="Home.html">home</a></li>
+                        <li><a href="#aboutus">about us</a></li>
+                        <li><a href="#solutions">solutions</a></li>
+                        <li><a href="#clients">clients</a></li>
+                        <li><a href="#contactus">contact us</a></li>
+                    </ul><!-- end of navbar left -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="SignUp.html">sign up</a></li>
+                        <li><a href="LogIn.html">log in</a></li>
+                    </ul><!-- end of navbar right -->
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!--collapse-->
+    <div class="panel-group col-lg-offset-2 col-lg-8 scroll-panel aph" id="accordion">
+
+        <div class="panel panel-danger">
+
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <label>Name</label>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="col-md-offset-10">
+                        &nbsp; &nbsp; &nbsp; Edit
+                    </a>
+                </h4>
+            </div><!--end of panel-heading-->
+
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <label for="inputName" class="col-sm-2 control-label">First Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputName" placeholder="First Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputName" class="col-sm-2 control-label">Last Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputName" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Save Changes</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div><!--end of panel body-->
+            </div><!--end of collapse one-->
+
+        </div><!--end of panel-danger-->
+
+        <div class="panel panel-danger">
+
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <label>Password</label>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="col-md-offset-10">
+                        &nbsp; Edit
+                    </a>
+                </h4>
+            </div><!--end of panel-heading-->
+
+            <div id="collapseTwo" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <label for="inputName" class="col-sm-2 control-label">Current Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputName" class="col-sm-2 control-label">New Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputName" class="col-sm-2 control-label">Retype New Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Save Changes</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div><!--end of panel body-->
+            </div><!--end of collapse two-->
+
+        </div><!--end of panel-danger-->
+
+        <div class="panel panel-danger">
+
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <label>Your Current Email</label>
+                </h4>
+                <div class="col-md-8">
+                    <label>name.surname@become-agile.com</label>
+                </div>
+            </div><!--end of panel-heading-->
+
+        </div><!--end of panel-danger-->
+
+
+    </div><!--end of panel-danger-->
+
+
+    <!-- Javascript -->
+    <!-- Jquery -->
+    <script src="JS/jquery-2.1.1.js"></script>
+    <script src="JS/jquery.inview.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="JS/bootstrap.js"></script>
+
+    <!-- Creative Link -->
+    <script src="JS/modernizr.custom_cl.js"></script>
+
+    <!-- Collapse Link -->
+    <script src="JS/collapse.js"></script>
+
+</body>
+</html>
